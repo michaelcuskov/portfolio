@@ -70,12 +70,14 @@ a:hover {
 h3 {
     color: rgb(50, 50, 50);
     text-decoration: underline;
+    padding-bottom: 10px;
 }
 /* main page contet */
 .content {
     background-color: whitesmoke;
-    padding: 8px;
+    padding: 20px;
     border-radius: 25px;
+    width: 100%;
 }
 h2 {
     font-weight: bold;
