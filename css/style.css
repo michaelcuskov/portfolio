@@ -8,7 +8,7 @@
 }
 html, 
 body {
-    background-color: lightgray;
+    background-color: rgb(228, 228, 228);
     height: 100%;
 }
 /* main box */
@@ -21,24 +21,29 @@ body {
     min-height: 100%;
     
 }
-.header, .menu, .copyright {
-    background-color: lightgray;
-}
+
 /* title header */
 .header {
     text-align: center;
     justify-content: center;
     align-content: center;
-    height: 70px;
+    height: 100px;
     flex: 0 2 auto;
     display: flex;
-    flex-wrap: wrap;
-    padding-left: 120px;
+    flex-direction: column;
+   flex-wrap: wrap;
+    padding-left: 70px;
     /*
     background-image:url("../images/turtle.jpg"); */
 }
 h1 {
-    color: rgb(77, 77, 77);
+    color: rgb(60, 60, 60);
+    font-weight: 400;
+    font-family: "Garamond";
+}
+h6 {
+    font-weight: 100;
+    color:rgb(77, 77, 77)
 }
 /* body */
 .body {
@@ -51,6 +56,7 @@ h1 {
 .menu {
     width: 100px;
     flex: 1 0 auto;
+    padding-top: 15px;
 }
 a {
     text-decoration: none;
