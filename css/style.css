@@ -33,6 +33,7 @@ body {
     flex: 0 2 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 120px;
     /*
     background-image:url("../images/turtle.jpg"); */
 }
