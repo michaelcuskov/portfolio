@@ -1,0 +1,132 @@
+* {
+    /* for troubleshooting 
+    border: 2px solid red;*/
+    color: whitesmoke;
+    font-family: "Arial", sans-serif;
+    margin: 0 0;
+    text-transform:uppercase;
+}
+html, 
+body {
+    background-color: rgb(39, 39, 39);
+    height: 100%;
+}
+/* main box */
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-height: 100%; 
+    background-image:url("../images/fog.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
+/* title header */
+.headerbg {
+    
+ 
+    background-color: rgba(0, 0, 0, 0.175);
+}
+.header {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 100px;
+    flex: 0 3 auto;
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+}
+.header h1 {
+    text-shadow:
+    1px  1px 2px yellow,
+    1px -1px 2px yellow,
+   -1px  1px 2px yellow,
+   -1px -1px 2px yellow;
+   color: transparent;
+}
+.menu {
+    flex: 0 2 0;
+    height: 36px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.menu a {
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 200;
+    color: transparent;
+    text-shadow:
+    1px  1px 2px whitesmoke,
+    1px -1px 2px whitesmoke,
+   -1px  1px 2px whitesmoke,
+   -1px -1px 2px whitesmoke;
+    transition: 2s;
+}
+.menu a:hover {
+    text-shadow:
+        1px  1px 2px yellow,
+        1px -1px 2px yellow,
+        -1px  1px 2px yellow,
+        -1px -1px 2px yellow;
+        transition: 2s;
+}
+.line {
+    background-color: grey;
+    height: 2px;
+    width: 660px;
+    align-self: center;
+}
+.content {
+    flex: 1 0 auto;
+    min-height: 100%;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+.content h2 {
+    text-shadow:
+    0px  0px 2px yellow,
+    0px 0px 2px yellow,
+   0px  0px 2px yellow,
+   0px 0px 2px yellow;
+   color: transparent;
+   margin-bottom: 10px;
+}
+.content p {
+    text-shadow:
+    0px  0px 2px whitesmoke,
+    0px 0px 2px whitesmoke,
+   0px  0px 2px whitesmoke,
+   0px 0px 2px whitesmoke;
+   color: transparent;
+}
+
+.contentbg {
+    border-radius: 15px;
+    padding: 20px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+.copyright {
+    flex: 0 4 0;
+    height: 30px;
+    text-align: right;
+    font-size: 8px;
+}
+.copyright h4 {
+    color: grey;
+}
